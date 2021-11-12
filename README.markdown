@@ -12,6 +12,7 @@
 
 - [ ] Responsive layout.
 - [ ] Bullet-point portfolio points.
+- [ ] Banner screenshot.
 - [ ] Footer.
 
 ## About :books:
