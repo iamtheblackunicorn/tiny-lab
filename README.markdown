@@ -8,8 +8,15 @@
 
 ***A small theme for independent freelancers.*** :fire: :test_tube:
 
+## To Do :hammer_and_pick:
+
+[ ] Responsive layout.
+[ ] Bullet-point portfolio points.
+[ ] Footer.
+
 ## About :books:
 
+Coming soon!
 
 ## Live Demo :fireworks:
 
@@ -55,6 +62,7 @@ You will see several files. The two most important files are:
   - `profilePictureUrl`: Put the URL to your site's logo here.
   - `viewText`: This is the text that is displayed when people read one of the blog posts on your site.
   - `description`: This is the description of what your site.
+  - `footerText`: The text that will be displayed in the footer. (Usually a copyright notice of some sort.)
   - `apple57x57`: This is the path to the "favicon" of the dimensions `57x57`.
   - `apple60x60`: This is the path to the "favicon" of the dimensions `60x60`.
   - `apple72x72`: This is the path to the "favicon" of the dimensions `72x72`.

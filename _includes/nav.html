@@ -1,5 +1,5 @@
 <div class="navMenu">
-  <a class="nav">ABOUT</a>
-  <a class="nav">PORTFOLIO</a>
-  <a class="nav">PROJECTS</a>
+  {% for item in site.data.nav %}
+   <a class="nav" href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+  {% endfor %}
 </div>

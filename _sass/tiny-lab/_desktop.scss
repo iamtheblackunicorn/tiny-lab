@@ -33,11 +33,12 @@ a.nav {
   display: inline-block;
   font-family: $pageComponentFontFace;
   color: $accentColor;
-  font-size: 20px;
+  font-size: 25px;
   padding: 20px;
   border-radius: 20px;
   font-weight: lighter;
   transition-duration: 0.6s;
+  text-decoration: none;
 }
 a.nav:hover {
   border: 2px solid $accentColor;
@@ -55,6 +56,7 @@ a.footer {
   border-radius: 20px;
   font-weight: lighter;
   transition-duration: 0.6s;
+  text-decoration: none;
 }
 a.footer:hover{
   color: $hoverColor;
@@ -66,12 +68,13 @@ div.navMenu {
   top: 0;
   position: sticky;
   margin: 0 auto;
-  width: $contentWidth;
+  width: $navWidth;
   background-color: $mainColor;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   border-top-left-radius: none;
   border-top-right-radius: none;
+  padding: 10px;
 }
 
 footer {
@@ -106,10 +109,21 @@ h1 {
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 35px;
   color: $mainColor;
   font-family: $headingFontFace;
-  font-weight: bold;
+  font-weight: bolder;
+  text-align: center;
+}
+span.subtitle {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: $mainColor;
+  font-family: $headingFontFace;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -139,17 +153,30 @@ h2,h3,h4,p {
   color: $mainColor;
   font-weight: lighter;
   font-style: italic;
+  padding: 30px;
 }
-
 h2 {
-  font-size: 22px;
+  font-size: 32px;
 }
 h3 {
-  font-size: 19px;
+  font-size: 29px;
 }
 h4 {
-  font-size: 16px;
+  font-size: 26px;
 }
 p {
-  font-size: 13px;
+  font-size: 23px;
+}
+hr {
+  background-color: $mainColor;
+  height: 3px;
+  width: 100%;
+  border: none;
+}
+img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  padding: 0;
 }
