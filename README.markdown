@@ -14,6 +14,7 @@
 - [ ] Bullet-point portfolio points.
 - [ ] Banner screenshot.
 - [ ] Footer.
+- [ ] Config variables in the tutorial section.
 
 ## About :books:
 
