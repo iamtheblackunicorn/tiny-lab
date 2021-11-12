@@ -1,5 +1,5 @@
 <p align="center">
- <img src="assets/images/banner.png"/>
+ <img src="https://github.com/iamtheblackunicorn/iamtheblackunicorn/raw/main/assets/banner.png"/>
 </p>
 
 # TINY LAB :fire: :test_tube:
