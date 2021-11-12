@@ -1,0 +1,155 @@
+/*
+TINY LAB by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+
+@import 'variables';
+
+html,body {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  right: 0;
+  border-top: 8px solid $mainColor;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: $accentColor;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: scroll;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a.nav {
+  display: inline-block;
+  font-family: $pageComponentFontFace;
+  color: $accentColor;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: lighter;
+  transition-duration: 0.6s;
+}
+a.nav:hover {
+  border: 2px solid $accentColor;
+}
+
+a.footer {
+  display: inline-block;
+  font-family: $textFontFace;
+  color: $mainColor;
+  font-size: 20px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-weight: lighter;
+  transition-duration: 0.6s;
+}
+a.footer:hover{
+  color: $hoverColor;
+}
+
+div.navMenu {
+  text-align: center;
+  display: block;
+  top: 0;
+  position: sticky;
+  margin: 0 auto;
+  width: $contentWidth;
+  background-color: $mainColor;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: none;
+  border-top-right-radius: none;
+}
+
+footer {
+  border-top: 2px solid $hoverColor;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  bottom: 0;
+  margin: 0;
+  right: 0;
+  width: 100%;
+  left: 0;
+  background-color: $accentColor;
+  padding: 20px;
+  text-align: center;
+}
+
+img.profile {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: $mainColor;
+  font-family: $headingFontFace;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.footer {
+  display: block;
+  font-family: $pageComponentFontFace;
+  color: $mainColor;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+div.content {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: $contentWidth;
+  height: 30%;
+  border: none;
+  text-align: left;
+  padding: 30px;
+}
+
+h2,h3,h4,p {
+  font-family: $textFontFace;
+  color: $mainColor;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 19px;
+}
+h4 {
+  font-size: 16px;
+}
+p {
+  font-size: 13px;
+}

@@ -1,0 +1,32 @@
+title: "Alexander Abraham"
+profilePictureUrl: "https://avatars.githubusercontent.com/u/78213234?v=4"
+viewText: "Read Me"
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+iconUrlIsAbsolute: true
+apple57x57: "https://blckunicorn.art/assets/favicon/apple-icon-57x57.png"
+apple60x60: "https://blckunicorn.art/assets/favicon/apple-icon-60x60.png"
+apple72x72: "https://blckunicorn.art/assets/favicon/apple-icon-72x72.png"
+apple76x76: "https://blckunicorn.art/assets/favicon/apple-icon-76x76.png"
+apple114x114: "https://blckunicorn.art/assets/favicon/apple-icon-114x114.png"
+apple120x120: "https://blckunicorn.art/assets/favicon/apple-icon-120x120.png"
+apple144x144: "https://blckunicorn.art/assets/favicon/apple-icon-144x144.png"
+apple152x152: "https://blckunicorn.art/assets/favicon/apple-icon-152x152.png"
+apple180x180: "https://blckunicorn.art/assets/favicon/apple-icon-180x180.png"
+android192x192: "https://blckunicorn.art/assets/favicon/android-icon-192x192.png"
+favicon32x32: "https://blckunicorn.art/assets/favicon/favicon-32x32.png"
+favicon96x96: "https://blckunicorn.art/assets/favicon/favicon-96x96.png"
+favicon16x16: "https://blckunicorn.art/assets/favicon/favicon-16x16.png"
+siteManifest: "https://blckunicorn.art/assets/favicon/manifest.json"
+microsoft144x144: "https://blckunicorn.art/assets/favicon/ms-icon-144x144.png"
+baseurl: "/tiny-lab"
+url: "https://blckunicorn.art/tiny-lab"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - sassc
