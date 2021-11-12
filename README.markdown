@@ -10,9 +10,9 @@
 
 ## To Do :hammer_and_pick:
 
-[ ] Responsive layout.
-[ ] Bullet-point portfolio points.
-[ ] Footer.
+- [ ] Responsive layout.
+- [ ] Bullet-point portfolio points.
+- [ ] Footer.
 
 ## About :books:
 
