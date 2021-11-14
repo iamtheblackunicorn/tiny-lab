@@ -7,19 +7,19 @@
  <hr/>
 
  <div class="content">
-  {{ content }}
+   {{ content }}
+
   {% for projectType in site.data.projects %}
   <h2>{{ projectType.type }}: <button class="action" onclick="javascript:expandPoint('{{ projectType.type }}');">{{ site.viewExpertiseText }}</button></h2>
-  {% for item in projectType.projects %}
   <div class="projectPoint" id="{{ projectType.type }}">
+  {% for item in projectType.projects %}
    <h3>{{ item.projectName }}</h3>
    <img class="projectPoint" src="{{ item.projectImage | prepend: site.baseurl }}"/>
-   <p class="projectPoint">{{ item.projectDescription }} <a href="{{ item.projectUrl }}">{{ site.viewProjectText }}</a></p
+   <p class="projectPoint">{{ item.projectDescription }} <a  class="projectUrl" href="{{ item.projectUrl }}">{{ site.viewProjectText }}</a></p>
+  {% endfor %}
   </div>
   {% endfor %}
-  {% endfor %}
- </div>
-
+</div>
  {% include footer.html %}
  {% include javascript.html %}
  </body>
