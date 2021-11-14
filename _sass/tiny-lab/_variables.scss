@@ -3,15 +3,17 @@ TINY LAB by Alexander Abraham, "The Black Unicorn".
 Licensed under the MIT license.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&display=swap');
 
-$contentWidth: 80%;
+$desktopContentWidth: 50%;
+$mobileContentWidth: 100%;
 $navWidth: 40%;
+$navWidthMobile: 20%;
 $hoverColor: #808080;
 $mainColor: #000000;
 $accentColor: #FFFFFF;
 $headingFontFace: 'Source Sans Pro', sans-serif;
-$pageComponentFontFace: 'Darker Grotesque', sans-serif;
-$textFontFace: 'EB Garamond', serif;
+$subtitleFontFace: 'Lora', serif;
+$navFontFace: 'Fira Sans Condensed', sans-serif;

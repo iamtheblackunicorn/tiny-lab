@@ -5,8 +5,6 @@ title: Home
 
 ## This is an h2!
 
-![GitHub CI](/tiny-lab/assets/images/test.png)
-
 Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
 Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
 Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
@@ -46,3 +44,9 @@ Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
 Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
 Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
 Lorem ipsum sit dolor amet. Lorem ipsum sit dolor amet.
+
+#### This is a list
+This is a list of services.
+- List Item One
+- List Item Two
+- List Item Three

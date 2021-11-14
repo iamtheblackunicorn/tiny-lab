@@ -10,10 +10,10 @@
 
 ## To Do :hammer_and_pick:
 
-- [ ] Responsive layout.
+- [x] Responsive layout.
 - [ ] Bullet-point portfolio points.
 - [ ] Banner screenshot.
-- [ ] Footer.
+- [x] Footer.
 - [ ] Config variables in the tutorial section.
 
 ## About :books:

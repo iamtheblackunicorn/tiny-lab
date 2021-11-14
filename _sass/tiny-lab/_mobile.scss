@@ -6,4 +6,82 @@ Licensed under the MIT license.
 @import 'variables';
 
 @media screen and (max-width: 800px) {
+  html,body {
+    border-top: none;
+  }
+  a.nav {
+    font-size: 20px;
+    padding: 10px;
+  }
+  div.navMenu {
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  img.profile {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    border: 2px solid $mainColor;
+  }
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  span.subtitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  hr {
+    margin-top: 10px;
+    height: 2px;
+  }
+  div.content {
+    padding: 7px;
+    width: $mobileContentWidth;
+  }
+  h2 {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  h4 {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  p {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  div.footer {
+    border-top: 2px solid $mainColor;
+    padding: 7px;
+    width: $mobileContentWidth;
+  }
+  p.footer {
+    font-size: 14px;
+    padding: 7px;
+  }
+  p.projectPoint {
+    font-size: 14px;
+    padding: 7px;
+  }
+  button {
+    font-size: 14px;
+  }
+  li {
+    font-size: 14px;
+    padding: 7px;
+  }
 }
