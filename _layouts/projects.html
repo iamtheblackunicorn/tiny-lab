@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ {% include head.html %}
+ <body>
+ {% include nav.html %}
+ {% include h1.html %}
+ <hr/>
+
+ <div class="content">
+  {{ content }}
+  {% for projectType in site.data.projects %}
+  <h2>{{ projectType.type }}: <button class="action" onclick="javascript:expandPoint('{{ projectType.type }}');">{{ site.viewExpertiseText }}</button></h2>
+  {% for item in projectType.projects %}
+  <div class="projectPoint" id="{{ projectType.type }}">
+   <h3>{{ item.projectName }}</h3>
+   <img class="projectPoint" src="{{ item.projectImage | prepend: site.baseurl }}"/>
+   <p class="projectPoint">{{ item.projectDescription }} <a href="{{ item.projectUrl }}">{{ site.viewProjectText }}</a></p
+  </div>
+  {% endfor %}
+  {% endfor %}
+ </div>
+
+ {% include footer.html %}
+ {% include javascript.html %}
+ </body>
+</html>

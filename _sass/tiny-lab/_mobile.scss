@@ -65,9 +65,7 @@ Licensed under the MIT license.
     padding-right: 30px;
   }
   div.footer {
-    border-top: 2px solid $mainColor;
-    padding: 7px;
-    width: $mobileContentWidth;
+    display: none;
   }
   p.footer {
     font-size: 14px;
@@ -83,5 +81,22 @@ Licensed under the MIT license.
   li {
     font-size: 14px;
     padding: 7px;
+  }
+  button.action {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid $mainColor;
+    margin-left:25px;
+    margin-bottom: 17px;
+  }
+  button.action:hover {
+    padding: 10px;
+    border: 2px solid $mainColor;
+  }
+  div.post {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid $mainColor;
   }
 }
