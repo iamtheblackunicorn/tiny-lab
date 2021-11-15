@@ -8,10 +8,12 @@ Licensed under the MIT license.
 @media screen and (max-width: 800px) {
   html,body {
     border-top: none;
+    overflow-x: hidden;
   }
   a.nav {
     font-size: 20px;
     padding: 10px;
+    font-family: $navFontFace;
   }
   div.navMenu {
     width: 100%;
@@ -30,11 +32,13 @@ Licensed under the MIT license.
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 22px;
+    font-family: $headingFontFace;
   }
   span.subtitle {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
+    font-family: $subtitleFontFace;
   }
   hr {
     margin-top: 10px;
@@ -48,21 +52,25 @@ Licensed under the MIT license.
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: $subtitleFontFace;
   }
   h3 {
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: $subtitleFontFace;
   }
   h4 {
     font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: $subtitleFontFace;
   }
   p {
     font-size: 14px;
     padding-left: 30px;
     padding-right: 30px;
+    font-family: $subtitleFontFace;
   }
   div.footer {
     display: none;
@@ -70,22 +78,28 @@ Licensed under the MIT license.
   p.footer {
     font-size: 14px;
     padding: 7px;
+    font-family: $subtitleFontFace;
   }
   p.projectPoint {
     font-size: 14px;
     padding: 7px;
+    font-family: $subtitleFontFace;
   }
   button {
     font-size: 14px;
+    font-family: $subtitleFontFace;
   }
   li {
     font-size: 14px;
     padding: 7px;
+    font-family: $subtitleFontFace;
+    margin-right: 20px;
   }
   button.action {
     padding: 10px;
     font-size: 14px;
     border: 2px solid $mainColor;
+    font-family: $subtitleFontFace;
     margin-left:25px;
     margin-bottom: 17px;
   }
@@ -94,12 +108,13 @@ Licensed under the MIT license.
     border: 2px solid $mainColor;
   }
   div.post {
-    width: 100%;
+    width: $mobileContentWidth;
     margin-top: 20px;
     margin-bottom: 10px;
     border-bottom: 2px solid $mainColor;
   }
   a.projectUrl {
     font-size: 14px;
+    font-family: $subtitleFontFace;
   }
 }
