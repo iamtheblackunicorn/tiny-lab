@@ -9,13 +9,24 @@
       projectDescription: A homage to the 80s and neon lights for the Jekyll CMS.
       projectName: Lush Neon
       projectImage: /assets/images/lush-neon.png
+      
+    - projectUrl: https://blckunicorn.art/tiny-lab/
+      projectDescription: A small theme for independent freelancers for the Jekyll CMS.
+      projectName: Tiny Lab
+      projectImage: /assets/images/tiny-lab.png
 
 - type: "Webapp Development"
   projects:
+  
     - projectUrl: https://github.com/iamtheblackunicorn/Krypton
       projectDescription: Secure and Private Messaging on the Web.
       projectName: Krypton
       projectImage: /assets/images/krypton.png
+    
+    - projectUrl: https://github.com/blackunicornlabs/Spacr
+      projectDescription: Save your login info in the cloud.
+      projectName: Spacr
+      projectImage: /assets/images/Spacr.png
 
 - type: "App Development"
   projects:
