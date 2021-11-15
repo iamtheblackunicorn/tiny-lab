@@ -8,14 +8,6 @@
 
 ***A small theme for independent freelancers.*** :fire: :test_tube:
 
-## To Do :hammer_and_pick:
-
-- [x] Footer.
-- [x] Responsive layout.
-- [x] Banner screenshot.
-- [x] Bullet-point portfolio points.
-- [x] Config variables in the tutorial section.
-
 ## About :books:
 
 Since a good and solid image is important for a freelancer, I wanted to make a tiny, minimalist, and elegant theme which freelancers who want to showcase their work and are familiar with the Jekyll CMS, can use.
@@ -30,7 +22,6 @@ A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/tin
 - Smooth animations.
 - SEO
 - Responsive design.
-- App-relevant API.
 
 
 ## Installation :hammer:
