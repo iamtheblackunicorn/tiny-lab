@@ -14,7 +14,11 @@
   <div class="projectPoint" id="{{ projectType.type }}">
   {% for item in projectType.projects %}
    <h3>{{ item.projectName }}</h3>
+   {% if item.projectImageUrlIsAbsolute == true %}
+   <img class="projectPoint" src="{{ item.projectImage }}"/>
+   {% else %}
    <img class="projectPoint" src="{{ item.projectImage | prepend: site.baseurl }}"/>
+   {% endif %}
    <p class="projectPoint">{{ item.projectDescription }} <a  class="projectUrl" href="{{ item.projectUrl }}">{{ site.viewProjectText }}</a></p>
   {% endfor %}
   </div>

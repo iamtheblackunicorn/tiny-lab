@@ -108,6 +108,42 @@ Next, create a directory inside the `mysite` directory called `_data`. Inside `_
 
 This file tells Jekyll which links you would like in your site's navigation menu and to which URL to take users.
 
+To list all your projects, that you have completed, create a file called `projects.yml` in the `_data` directory.
+
+Here's an example of what `projects.yml` could contain.
+
+```YAML
+- type: "Web Development"
+  projects:
+
+    - projectUrl: https://example.com
+      projectDescription: Your portfolio project description here.
+      projectName: An Example project.
+      projectImageUrlIsAbsolute: true
+      projectImage: https://raw.githubusercontent.com/iamtheblackunicorn/iamtheblackunicorn/main/assets/banner.png
+
+- type: "Webapp Development"
+  projects:
+
+    - projectUrl: https://example.com
+      projectDescription: Your portfolio project description here.
+      projectName: An Example project.
+      projectImageUrlIsAbsolute: true
+      projectImage: https://raw.githubusercontent.com/iamtheblackunicorn/iamtheblackunicorn/main/assets/banner.png
+
+- type: "App Development"
+  projects:
+
+    - projectUrl: https://example.com
+      projectDescription: Your portfolio project description here.
+      projectName: An Example project.
+      projectImageUrlIsAbsolute: true
+      projectImage: https://raw.githubusercontent.com/iamtheblackunicorn/iamtheblackunicorn/main/assets/banner.png
+```
+
+The fields "Web Development", "Webapp Development", and "App Development" are the areas of your expertise.
+The sub-fields are individual projects. The field names are self-explanatory. If your project image is hosted somewhere else, set the `projectImageUrlIsAbsolute` variable to `true`, otherwise to `false`.
+
 Finally, add a directory called `_posts` in the `mysite` directory. This is where your site's blog posts will go. Create a new post with the file name format such as this `YYYY-MM-DD-Your-awesome-post.markdown`. At the start of the file, you need to set some variables. The `layout` variables tells Jekyll which one of ***Lush Neon's*** layouts to use. `tags` tells Jekyll which subjects your post is related to. Here's an example:
 
 ```Markdown

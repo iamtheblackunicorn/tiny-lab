@@ -1,41 +1,26 @@
 - type: "Web Development"
   projects:
-    - projectUrl: https://blckunicorn.art/elegant-simplicity/
-      projectDescription: A minimalist, elegant, blog theme for the Jekyll CMS.
-      projectName: Elegant Simplicity.
-      projectImage: /assets/images/elegant-simplicity.png
 
-    - projectUrl: https://blckunicorn.art/lush-neon/
-      projectDescription: A homage to the 80s and neon lights for the Jekyll CMS.
-      projectName: Lush Neon
-      projectImage: /assets/images/lush-neon.png
-      
-    - projectUrl: https://blckunicorn.art/tiny-lab/
-      projectDescription: A small theme for independent freelancers for the Jekyll CMS.
-      projectName: Tiny Lab
-      projectImage: /assets/images/tiny-lab.png
+    - projectUrl: https://example.com
+      projectDescription: Your portfolio project description here.
+      projectName: An Example project.
+      projectImageUrlIsAbsolute: true
+      projectImage: https://raw.githubusercontent.com/iamtheblackunicorn/iamtheblackunicorn/main/assets/banner.png
 
 - type: "Webapp Development"
   projects:
-  
-    - projectUrl: https://github.com/iamtheblackunicorn/Krypton
-      projectDescription: Secure and Private Messaging on the Web.
-      projectName: Krypton
-      projectImage: /assets/images/krypton.png
-    
-    - projectUrl: https://github.com/blackunicornlabs/Spacr
-      projectDescription: Save your login info in the cloud.
-      projectName: Spacr
-      projectImage: /assets/images/Spacr.png
+
+    - projectUrl: https://example.com
+      projectDescription: Your portfolio project description here.
+      projectName: An Example project.
+      projectImageUrlIsAbsolute: true
+      projectImage: https://raw.githubusercontent.com/iamtheblackunicorn/iamtheblackunicorn/main/assets/banner.png
 
 - type: "App Development"
   projects:
-    - projectUrl: https://github.com/blackunicornlabs/SecPass
-      projectDescription: Generate the passwords YOU need!
-      projectName: Sec Pass
-      projectImage: /assets/images/SecPass.png
 
-    - projectUrl: https://github.com/blackunicornlabs/Athena
-      projectDescription: Get quotes to motivate and inspire you!
-      projectName: Athena
-      projectImage: /assets/images/Athena.png
+    - projectUrl: https://example.com
+      projectDescription: Your portfolio project description here.
+      projectName: An Example project.
+      projectImageUrlIsAbsolute: true
+      projectImage: https://raw.githubusercontent.com/iamtheblackunicorn/iamtheblackunicorn/main/assets/banner.png
