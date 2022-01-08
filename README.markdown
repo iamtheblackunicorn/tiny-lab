@@ -96,7 +96,7 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-remote-theme"
 gem "sassc"
-gem "jekyll-theme-lush-neon", git: "https://github.com/iamthblackunicorn/tiny-lab", branch: "main"
+gem "jekyll-theme-tiny-lab", git: "https://github.com/iamthblackunicorn/tiny-lab", branch: "main"
 ```
 
 Next, create a directory inside the `mysite` directory called `_data`. Inside `_data`, create a file called `nav.yml`. Fill this file in the following manner.
@@ -144,7 +144,7 @@ Here's an example of what `projects.yml` could contain.
 The fields "Web Development", "Webapp Development", and "App Development" are the areas of your expertise.
 The sub-fields are individual projects. The field names are self-explanatory. If your project image is hosted somewhere else, set the `projectImageUrlIsAbsolute` variable to `true`, otherwise to `false`.
 
-Finally, add a directory called `_posts` in the `mysite` directory. This is where your site's blog posts will go. Create a new post with the file name format such as this `YYYY-MM-DD-Your-awesome-post.markdown`. At the start of the file, you need to set some variables. The `layout` variables tells Jekyll which one of ***Lush Neon's*** layouts to use. `tags` tells Jekyll which subjects your post is related to. Here's an example:
+Finally, add a directory called `_posts` in the `mysite` directory. This is where your site's blog posts will go. Create a new post with the file name format such as this `YYYY-MM-DD-Your-awesome-post.markdown`. At the start of the file, you need to set some variables. The `layout` variables tells Jekyll which one of ***Tiny Lab's*** layouts to use. `tags` tells Jekyll which subjects your post is related to. Here's an example:
 
 ```Markdown
 layout: post
